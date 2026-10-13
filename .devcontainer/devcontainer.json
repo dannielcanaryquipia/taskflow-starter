@@ -1,0 +1,29 @@
+{
+  "name": "TaskFlow (Expo SDK 57)",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "hostRequirements": {
+    "cpus": 2
+  },
+  "postCreateCommand": "npm ci",
+  "forwardPorts": [8081],
+  "portsAttributes": {
+    "8081": {
+      "label": "Expo dev server",
+      "onAutoForward": "silent"
+    }
+  },
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["README.md", "src/app/index.tsx"]
+    },
+    "vscode": {
+      "extensions": ["expo.vscode-expo-tools", "bradlc.vscode-tailwindcss"],
+      "settings": {
+        "editor.fontSize": 13,
+        "editor.wordWrap": "on",
+        "editor.minimap.enabled": false,
+        "files.autoSave": "afterDelay"
+      }
+    }
+  }
+}
