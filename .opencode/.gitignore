@@ -1,0 +1,8 @@
+# Never commit installed packages, caches or local state from OpenCode
+node_modules/
+package.json
+package-lock.json
+bun.lock
+*.log
+.env
+.env.*
