@@ -5,8 +5,8 @@ import { getFirestore } from 'firebase/firestore';
 // Firebase console > Project settings (gear icon) > Your apps > TaskFlow (web app) > SDK setup and configuration > Config
 const firebaseConfig = {
   apiKey: 'PASTE_YOUR_API_KEY',
-  authDomain: 'taskflow-lastname.firebaseapp.com',
-  projectId: 'taskflow-lastname',
+  authDomain: 'taskflow-ditan.firebaseapp.com',
+  projectId: 'taskflow-lame',
   storageBucket: 'taskflow-lastname.firebasestorage.app',
   messagingSenderId: 'PASTE_YOUR_SENDER_ID',
   appId: 'PASTE_YOUR_APP_ID',

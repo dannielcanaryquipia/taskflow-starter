@@ -17,12 +17,16 @@
       "openFiles": ["README.md", "src/app/index.tsx"]
     },
     "vscode": {
-      "extensions": ["expo.vscode-expo-tools", "bradlc.vscode-tailwindcss"],
+      "extensions": ["expo.vscode-expo-tools", "bradlc.vscode-tailwindcss", "esbenp.prettier-vscode"],
       "settings": {
         "editor.fontSize": 13,
         "editor.wordWrap": "on",
         "editor.minimap.enabled": false,
-        "files.autoSave": "afterDelay"
+        "files.autoSave": "afterDelay",
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true,
+        "files.autoSave": "onFocusChange"
       }
     }
   }
