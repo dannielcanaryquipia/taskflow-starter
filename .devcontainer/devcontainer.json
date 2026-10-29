@@ -22,8 +22,7 @@
         "editor.fontSize": 13,
         "editor.wordWrap": "on",
         "editor.minimap.enabled": false,
-        "files.autoSave": "afterDelay",
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.defaultFormatter": "vscode.json-language-features",
         "editor.formatOnSave": true,
         "editor.formatOnPaste": true,
         "files.autoSave": "onFocusChange"
